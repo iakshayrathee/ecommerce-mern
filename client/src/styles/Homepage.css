@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Raleway&display=swap");
+.home-page h1 {
+  font-weight: 600;
+  background-color: #d27ef9;
+  color: white;
+  border-radius: 25px;
+}
+
+.swiper {
+  width: 100%;
+  height: 625px;
+  margin-top: -18px;
+}
+.swiper img {
+  width: 100%;
+  height: 150%;
+  margin-top: -100px;
+  position: relative;
+}
+.hero {
+  background-color: #3bd0f1;
+  margin-top: -20px;
+}
+.img-1 img {
+  margin-top: -150px;
+}
+.img-3 img {
+  margin-top: -50px !important;
+}
+.img-2 img {
+  padding: 0px 0 !important;
+}
+.text-banner {
+  z-index: 10;
+  position: absolute;
+  font-size: 68px;
+  top: 5rem;
+  left: 6rem;
+  font-family: "Raleway", sans-serif !important;
+}
+.button-banner {
+  position: absolute;
+  top: 26rem;
+  left: 6rem;
+  background-color: transparent;
+  width: 15%;
+}
+.text-banner-3 {
+  z-index: 10;
+  position: absolute;
+  font-size: 68px;
+  top: 5rem;
+  font-family: "Raleway", sans-serif !important;
+  right: 6rem;
+}
+.button-banner-2 {
+  position: absolute;
+  top: 22rem;
+  right: 30rem;
+  background-color: transparent;
+  width: 15%;
+}
+.text-banner-2 {
+  z-index: 10;
+  position: absolute;
+  font-size: 68px;
+  top: 3rem;
+  font-family: "Raleway", sans-serif !important;
+  right: 6rem;
+}
+
+.button-2:hover {
+  color: white;
+  background-color: #e72727;
+  border: none;
+}
+.button-banner-3 {
+  position: absolute;
+  top: 24rem;
+  right: 5rem;
+  background-color: transparent;
+  width: 15%;
+}
+.button-3:hover {
+  color: white;
+  background-color: #8c1ee1;
+  border: none;
+}
+.button-1:hover {
+  color: white;
+  background-color: #d9347e;
+  border: none;
+}
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  width: 20rem;
+  height: 38rem;
+}
+
+.home-page .card-name-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.home-page .card-name-price svg {
+  height: 20px;
+  margin-right: 5px;
+  font-weight: 700;
+}
+.home-page .card-name-price .color {
+  background-color: #ff9f00;
+}
+.home-page .card-name-price .color-1 {
+  background-color: #fb641b;
+}
+
+.home-page .card-price {
+  color: rgb(123, 215, 81);
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.home-page button:hover {
+  box-shadow: inset 0 -3.25em 0 0 rgb(104, 204, 234);
+  border: none;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+.home-page .overflow {
+  overflow: hidden;
+  min-height: 45vh;
+}
+
+.home-page .card img:hover {
+  transform: scale(1.2);
+  transition: all 0.4s ease;
+}
+
+.home-page .card-img-top {
+  height: 350px !important;
+  border-radius: 0%;
+}
+/* ==================
+filters
+============== */
+
+.border {
+  border: 2px solid rgb(180, 178, 178) !important;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  position: sticky;
+}
+.filters h4 {
+  margin-top: 100px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+.text {
+  margin-bottom: -10vh;
+  color: white;
+  background-color: rgb(87, 210, 103);
+  padding: 5px 0;
+  margin: -2px -2px -10vh -2px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 5px;
+}
+
+.ant-checkbox-wrapper {
+  margin-left: 20px !important;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 20px;
+}
+
+.filters button {
+  background-color: rgb(228, 103, 242);
+  width: 97% !important;
+  margin: 0 15px;
+  padding: 9px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+.filters button:hover {
+  box-shadow: inset 0 -3.25em 0 0 rgb(91, 206, 241);
+  border: none;
+}
+
+.loadmore {
+  color: rgb(72, 237, 72);
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.loadmore:hover {
+  color: white;
+}
+
+@media (min-width: 1201px) and (max-width: 3000px) {
+  /* .card-body {
+    margin-top: -200px;
+  } */
+  .category-responsive {
+    padding-top: 70px;
+  }
+  .button-banner-2 {
+    width: 15%;
+    right: 8rem;
+  }
+}
+
+@media (min-width: 871px) and (max-width: 1200px) {
+  /* .card-body {
+    margin-top: -200px;
+  } */
+  /* .category-responsive {
+    padding-top: 70px;
+  } */
+  .button-banner-2 {
+    right: 16rem;
+  }
+}
+
+@media (min-width: 436px) and (max-width: 870px) {
+  .category-responsive {
+    margin-top: 100px !important;
+  }
+  .text-banner {
+    font-size: 25px;
+    top: 50px;
+    left: 20px;
+  }
+  .button-banner {
+    top: 200px;
+    left: 20px;
+    width: 30%;
+  }
+  .text-banner-2 {
+    position: absolute;
+    font-size: 25px;
+    top: 50px;
+    left: 20px;
+    font-family: "Raleway", sans-serif !important;
+  }
+  .text-banner-3 {
+    font-size: 30px;
+    top: 100px;
+    right: 90px;
+  }
+  .button-banner-2 {
+    top: 220px;
+    right: 50px;
+    width: 30%;
+  }
+  .button-banner-3 {
+    top: 200px;
+    left: 20px;
+    width: 20%;
+  }
+  .img-3 img {
+    min-height: 89vh;
+  }
+  .swiper img {
+    width: 100vw;
+    max-height: 80vh;
+    margin-top: 10px;
+  }
+  .category-responsive {
+    padding-top: 50px !important;
+  }
+  .card {
+    margin: 0 auto !important;
+  }
+  .card-body {
+    margin-top: -180px;
+  }
+
+  .hero {
+    margin-top: -50px;
+  }
+  .img-1 img {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 435px) {
+  .title-fix {
+    margin-right: -25px;
+  }
+  .text-banner {
+    font-size: 20px;
+    top: 50px;
+    left: 20px;
+  }
+  .button-banner {
+    top: 200px;
+    left: 20px;
+    width: 40%;
+  }
+  .text-banner-2 {
+    position: absolute;
+    font-size: 25px;
+    top: 50px;
+    left: 20px;
+    font-family: "Raleway", sans-serif !important;
+  }
+  .text-banner-3 {
+    font-size: 25px;
+    top: 100px;
+    right: 60px;
+  }
+  .button-banner-2 {
+    top: 200px;
+    right: 50px;
+    width: 40%;
+    height: 40px;
+  }
+  .button-banner-3 {
+    top: 200px;
+    left: 5px;
+    width: 40%;
+  }
+  .swiper img {
+    width: 100vw;
+    max-height: 80vh;
+    margin-top: 0px;
+  }
+  .img-1 img {
+    height: 71vh;
+  }
+  .img-2 img {
+    margin-top: -48px;
+  }
+  .card-body {
+    font-size: 12px;
+    margin-top: -35px;
+  }
+  .card {
+    height: 75vh !important;
+  }
+  .responsive button svg {
+    display: none;
+  }
+  .responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .responsive button {
+    padding: 1px;
+  }
+  .img-2 img {
+    padding-bottom: 0 !important;
+  }
+  .category-responsive {
+    padding-top: 50px !important;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+  .hero {
+    margin-top: -50px;
+  }
+}
+
+@media (min-width: 270px) and (max-width: 380px) {
+  .title-fix {
+    margin-right: -25px;
+  }
+  .text-banner {
+    font-size: 20px;
+    top: 50px;
+    left: 20px;
+  }
+  .button-banner {
+    top: 200px;
+    left: 20px;
+    width: 40%;
+  }
+  .text-banner-2 {
+    position: absolute;
+    font-size: 25px;
+    top: 50px;
+    left: 20px;
+    font-family: "Raleway", sans-serif !important;
+  }
+  .text-banner-3 {
+    font-size: 25px;
+    top: 100px;
+    right: 10px;
+  }
+  .button-banner-2 {
+    top: 200px;
+    right: 20px;
+    width: 40%;
+    height: 60px;
+  }
+  .button-banner-3 {
+    top: 200px;
+    left: 5px;
+    width: 40%;
+  }
+  .swiper img {
+    width: 100vw;
+    max-height: 80vh;
+    margin-top: 10px;
+  }
+  .img-1 img {
+    height: 73vh;
+    margin-top: -1px;
+  }
+  .img-2 img {
+    margin-top: -48px;
+  }
+  .img-3 img {
+    margin-top: -23px;
+  }
+  .card-body {
+    font-size: 12px;
+    /* margin-top: -70px; */
+  }
+  .responsive button svg {
+    display: none;
+  }
+  .responsive {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .responsive button {
+    padding: 1px;
+  }
+
+  .category-responsive {
+    padding-top: 50px !important;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .search {
+    margin-top: -18px !important;
+  }
+  .search-cart button {
+    margin-top: 5px !important;
+  }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+  .card {
+    margin: 5px !important;
+  }
+}
