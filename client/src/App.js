@@ -24,8 +24,11 @@ import Categories from "./pages/Categories";
 import CategoryProduct from "./pages/CategoryProduct";
 import CartPage from "./pages/CartPage";
 import AdminOrders from "./pages/Admin/AdminOrders";
+import axios from 'axios';
+
 
 function App() {
+  axios.defaults.baseURL = 'https://ecommerce-backend-1qjv.onrender.com/';
   return (
     <>
       <Routes>
