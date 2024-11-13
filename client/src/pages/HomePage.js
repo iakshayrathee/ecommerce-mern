@@ -158,7 +158,7 @@ const HomePage = () => {
 
           <SwiperSlide className="img-3">
             <img
-              src="https://cdn.create.vista.com/api/media/medium/412591868/stock-photo-happy-man-shirt-holding-shopping-bags-blue?token="
+              src="https://plus.unsplash.com/premium_photo-1699973056666-b1eed2289d75?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Slide 3"
             />
             <h1 className="text-white text-banner-2">
